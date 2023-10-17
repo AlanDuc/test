@@ -1,19 +1,19 @@
 {
      "nodes": [
-		{"id": "A1", "group": 1},
-		{"id": "A2", "group": 1},
-		{"id": "A3", "group": 1},
-		{"id": "B1", "group": 2},
-		{"id": "B2", "group": 2},
-		{"id": "B3", "group": 2}
+		{"id": "TG",      "group": 1},
+		{"id": "Glucose", "group": 1},
+		{"id": "Diabete", "group": 1},
+		{"id": "B1",      "group": 2},
+		{"id": "B2",      "group": 2},
+		{"id": "B3",      "group": 2}
 	],
 	  "links": [
-		{"source": "A1", "target": "A2", "value": 11},
-		{"source": "A1", "target": "A3", "value": 11},
-		{"source": "A2", "target": "A3", "value": 11},
-		{"source": "B1", "target": "B2", "value": 22},
-		{"source": "B1", "target": "B3", "value": 22},
-		{"source": "B2", "target": "B3", "value": 22},
-		{"source": "A2", "target": "B2", "value": 8}
+		{"source": "TG",      "target": "Glucose", "value": 11},
+		{"source": "TG",      "target": "Diabete", "value": 11},
+		{"source": "Glucose", "target": "Diabete", "value": 11},
+		{"source": "B1",      "target": "B2",      "value": 22},
+		{"source": "B1",      "target": "B3",      "value": 22},
+		{"source": "B2",      "target": "B3",      "value": 22},
+		{"source": "Glucose", "target": "B2",      "value": 8}
 	]
 }
