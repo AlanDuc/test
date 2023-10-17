@@ -1,22 +1,19 @@
 {
      "nodes": [
-    {"id": "A1", "group": 1, fx: 0, fy: 0, fz: 0},
-    {"id": "A2", "group": 1, fx: 100, fy: 0, fz: 0},
-    {"id": "A3", "group": 1, fx: 0, fy: 100, fz: 0},
-
-    {"id": "B1", "group": 2, fx: 0 , fy: 0, fz: -150},
-    {"id": "B2", "group": 2, fx: 100, fy: 0, fz: -150},
-    {"id": "B3", "group": 2, fx: 0, fy: 100, fz: -150},
-
-  ],
-  "links": [
-    {"source": "A1", "target": "A2", "value": 11},
-    {"source": "A1", "target": "A3", "value": 11},
-    {"source": "A2", "target": "A3", "value": 11},
-    {"source": "B1", "target": "B2", "value": 22},
-    {"source": "B1", "target": "B3", "value": 22},
-    {"source": "B2", "target": "B3", "value": 22},
-    {"source": "A2", "target": "B2", "value": 8},
-
-  ]
-    }
+		{"id": "A1", "group": 1},
+		{"id": "A2", "group": 1},
+		{"id": "A3", "group": 1},
+		{"id": "B1", "group": 2},
+		{"id": "B2", "group": 2},
+		{"id": "B3", "group": 2}
+	],
+	  "links": [
+		{"source": "A1", "target": "A2", "value": 11},
+		{"source": "A1", "target": "A3", "value": 11},
+		{"source": "A2", "target": "A3", "value": 11},
+		{"source": "B1", "target": "B2", "value": 22},
+		{"source": "B1", "target": "B3", "value": 22},
+		{"source": "B2", "target": "B3", "value": 22},
+		{"source": "A2", "target": "B2", "value": 8}
+	]
+}
