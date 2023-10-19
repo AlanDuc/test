@@ -15,7 +15,7 @@
                 {"id": "SBP1",      "group": "t1",  "fx": 11, "fy":   -109, "fz": -40}, 	{"id": "HP1",      "group": "t1",  "fx": 49, "fy": -112, "fz": -40},
                 {"id": "UA1",       "group": "t1",  "fx": 75, "fy": -118.5, "fz": -40}, 	{"id": "Heart1",   "group": "t1",  "fx": 23, "fy": -133, "fz": -40},
                 {"id": "Stroke1",   "group": "t1",  "fx": 47, "fy":   -151, "fz": -40}, 	{"id": "Gout1",    "group": "t1",  "fx": 71, "fy": -146, "fz": -40},
-            ],
+            ]
 
             "links": [
                 {"source": "LDL",       "target": "T_CHO",     "linkgroup": "t0"},	{"source": "T_CHO",     "target": "TG",        "linkgroup": "t0"},
