@@ -1,19 +1,45 @@
-{
-     "nodes": [
-		{"id": "TG",      "group": 1},
-		{"id": "Glucose", "group": 1},
-		{"id": "Diabete", "group": 1},
-		{"id": "B1",      "group": 2},
-		{"id": "B2",      "group": 2},
-		{"id": "B3",      "group": 2}
-	],
-	  "links": [
-		{"source": "TG",      "target": "Glucose", "value": 11},
-		{"source": "TG",      "target": "Diabete", "value": 11},
-		{"source": "Glucose", "target": "Diabete", "value": 11},
-		{"source": "B1",      "target": "B2",      "value": 22},
-		{"source": "B1",      "target": "B3",      "value": 22},
-		{"source": "B2",      "target": "B3",      "value": 22},
-		{"source": "Glucose", "target": "B2",      "value": 8}
-	]
-}
+"nodes": [
+                {"id": "LDL",       "group": "t0",  fx: 27, fy:     -3, fz:   0},	{"id": "T_CHO",    "group": "t0",  fx: 15, fy:  -21, fz:   0},
+                {"id": "TG",        "group": "t0",  fx: 15, fy:    -45, fz:   0}, 	{"id": "HDL",      "group": "t0",  fx: 48, fy:  -33, fz:   0},
+                {"id": "wh_ratio",  "group": "t0",  fx: 66, fy:    -57, fz:   0}, 	{"id": "Glucose",  "group": "t0",  fx: 18, fy:  -72, fz:   0},
+                {"id": "BMI",       "group": "t0",  fx: 42, fy:    -75, fz:   0}, 	{"id": "Diabete",  "group": "t0",  fx: 33, fy:  -97, fz:   0},
+                {"id": "SBP",       "group": "t0",  fx: 11, fy:   -109, fz:   0}, 	{"id": "HP",       "group": "t0",  fx: 49, fy: -112, fz:   0},
+                {"id": "UA",        "group": "t0",  fx: 75, fy: -118.5, fz:   0}, 	{"id": "Heart",    "group": "t0",  fx: 23, fy: -133, fz:   0},
+                {"id": "Stroke",    "group": "t0",  fx: 47, fy:   -151, fz:   0},	{"id": "Gout",     "group": "t0",  fx: 71, fy: -146, fz:   0},
+
+                {"id": "LDL1",      "group": "t1",  fx: 27, fy:     -3, fz: -40}, 	{"id": "T_CHO1",   "group": "t1",  fx: 15, fy:  -21, fz: -40},
+                {"id": "TG1",       "group": "t1",  fx: 15, fy:    -45, fz: -40}, 	{"id": "HDL1",     "group": "t1",  fx: 48, fy:  -33, fz: -40},
+                {"id": "wh_ratio1", "group": "t1",  fx: 66, fy:    -57, fz: -40},	{"id": "Glucose1", "group": "t1",  fx: 18, fy:  -72, fz: -40},
+                {"id": "BMI1",      "group": "t1",  fx: 42, fy:    -75, fz: -40}, 	{"id": "Diabete1", "group": "t1",  fx: 33, fy:  -97, fz: -40},
+                {"id": "SBP1",      "group": "t1",  fx: 11, fy:   -109, fz: -40}, 	{"id": "HP1",      "group": "t1",  fx: 49, fy: -112, fz: -40},
+                {"id": "UA1",       "group": "t1",  fx: 75, fy: -118.5, fz: -40}, 	{"id": "Heart1",   "group": "t1",  fx: 23, fy: -133, fz: -40},
+                {"id": "Stroke1",   "group": "t1",  fx: 47, fy:   -151, fz: -40}, 	{"id": "Gout1",    "group": "t1",  fx: 71, fy: -146, fz: -40},
+            ],
+
+"links": [
+                {"source": "LDL",       "target": "T_CHO",     "linkgroup": "t0"},	{"source": "T_CHO",     "target": "TG",        "linkgroup": "t0"},
+                {"source": "HDL",       "target": "TG",        "linkgroup": "t0"}, 	{"source": "HDL",       "target": "wh_ratio",  "linkgroup": "t0"},
+                {"source": "TG",        "target": "wh_ratio",  "linkgroup": "t0"}, 	{"source": "wh_ratio",  "target": "BMI",       "linkgroup": "t0"},
+                {"source": "wh_ratio",  "target": "Glucose",   "linkgroup": "t0"}, 	{"source": "wh_ratio",  "target": "HP",        "linkgroup": "t0"},
+                {"source": "wh_ratio",  "target": "UA",        "linkgroup": "t0"}, 	{"source": "Glucose",   "target": "Diabete",   "linkgroup": "t0"},
+                {"source": "Glucose",   "target": "SBP",       "linkgroup": "t0"}, 	{"source": "Diabete",   "target": "HP",        "linkgroup": "t0"},
+                {"source": "SBP",       "target": "HP",        "linkgroup": "t0"}, 	{"source": "HP",        "target": "UA",        "linkgroup": "t0"},
+                {"source": "HP",        "target": "Gout",      "linkgroup": "t0"}, 	{"source": "HP",        "target": "Stroke",    "linkgroup": "t0"},
+                {"source": "HP",        "target": "Heart",     "linkgroup": "t0"}, 	{"source": "UA",        "target": "Gout",      "linkgroup": "t0"},
+                {"source": "BMI",       "target": "Diabete",   "linkgroup": "t0"},
+
+                {"source": "LDL1",      "target": "T_CHO1",    "linkgroup": "t1"},   {"source": "T_CHO1",    "target": "TG1",       "linkgroup": "t1"},
+                {"source": "HDL1",      "target": "TG1",       "linkgroup": "t1"},   {"source": "HDL1",      "target": "wh_ratio1", "linkgroup": "t1"},
+                {"source": "TG1",       "target": "wh_ratio1", "linkgroup": "t1"}, 	{"source": "wh_ratio1", "target": "BMI1",      "linkgroup": "t1"},
+                {"source": "wh_ratio1", "target": "Glucose1",  "linkgroup": "t1"}, 	{"source": "wh_ratio1", "target": "HP1",       "linkgroup": "t1"},
+                {"source": "wh_ratio1", "target": "UA1",       "linkgroup": "t1"}, 	{"source": "Glucose1",  "target": "Diabete1",  "linkgroup": "t1"},
+                {"source": "Glucose1",  "target": "SBP1",      "linkgroup": "t1"}, 	{"source": "Diabete1",  "target": "HP1",       "linkgroup": "t1"},
+                {"source": "SBP1",      "target": "HP1",       "linkgroup": "t1"}, 	{"source": "HP1",       "target": "UA1",       "linkgroup": "t1"},
+                {"source": "HP1",       "target": "Gout1",     "linkgroup": "t1"}, 	{"source": "HP1",       "target": "Stroke1",   "linkgroup": "t1"},
+                {"source": "HP1",       "target": "Heart1",    "linkgroup": "t1"}, 	{"source": "UA1",       "target": "Gout1",     "linkgroup": "t1"},
+                {"source": "BMI1",      "target": "Diabete1",  "linkgroup": "t1"},
+
+                {"source": "TG",        "target": "TG1",       "linkgroup": "0-1"},	{"source": "wh_ratio",  "target": "wh_ratio1", "linkgroup": "0-1"},
+                {"source": "Glucose",   "target": "Glucose1",  "linkgroup": "0-1"},	{"source": "HDL",       "target": "HDL1",      "linkgroup": "0-1"},
+            ]
+        
