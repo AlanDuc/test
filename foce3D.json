@@ -1,4 +1,4 @@
-const fData = {
+{
 	"nodes": [
                 {"id": "LDL",       "group": "t0",  fx: 27, fy:     -3, fz:   0},	{"id": "T_CHO",    "group": "t0",  fx: 15, fy:  -21, fz:   0},
                 {"id": "TG",        "group": "t0",  fx: 15, fy:    -45, fz:   0}, 	{"id": "HDL",      "group": "t0",  fx: 48, fy:  -33, fz:   0},
@@ -43,4 +43,4 @@ const fData = {
                 {"source": "TG",        "target": "TG1",       "linkgroup": "0-1"},	{"source": "wh_ratio",  "target": "wh_ratio1", "linkgroup": "0-1"},
                 {"source": "Glucose",   "target": "Glucose1",  "linkgroup": "0-1"},	{"source": "HDL",       "target": "HDL1",      "linkgroup": "0-1"},
             ]
-};
+}
