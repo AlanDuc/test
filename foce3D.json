@@ -14,7 +14,7 @@
 			{"id": "BMI_1",      "group": "t1",  "fx": 42, "fy":    -75, "fz": -40}, 	{"id": "Diabete_1", "group": "t1",  "fx": 33, "fy":  -97, "fz": -40},
 			{"id": "SBP_1",      "group": "t1",  "fx": 11, "fy":   -109, "fz": -40}, 	{"id": "HP_1",      "group": "t1",  "fx": 49, "fy": -112, "fz": -40},
 			{"id": "UA_1",       "group": "t1",  "fx": 75, "fy": -118.5, "fz": -40}, 	{"id": "Heart_1",   "group": "t1",  "fx": 23, "fy": -133, "fz": -40},
-			{"id": "Stroke_1",   "group": "t1",  "fx": 47, "fy":   -151, "fz": -40}, 	{"id": "Gout_1",    "group": "t1",  "fx": 71, "fy": -146, "fz": -40},
+			{"id": "Stroke_1",   "group": "t1",  "fx": 47, "fy":   -151, "fz": -40}, 	{"id": "Gout_1",    "group": "t1",  "fx": 71, "fy": -146, "fz": -40}
 		],
 		"links": [
 			{"source": "LDL",        "target": "T_CHO",      "linkgroup": "t0"},	{"source": "T_CHO",      "target": "TG",         "linkgroup": "t0"},
@@ -40,6 +40,6 @@
 			{"source": "BMI_1",      "target": "Diabete_1",  "linkgroup": "t1"},		
 			
 			{"source": "TG",         "target": "TG_1",       "linkgroup": "0-1"},	{"source": "wh_ratio",   "target": "wh_ratio_1", "linkgroup": "0-1"},
-			{"source": "Glucose",    "target": "Glucose_1",  "linkgroup": "0-1"},	{"source": "HDL",        "target": "HDL_1",      "linkgroup": "0-1"},
+			{"source": "Glucose",    "target": "Glucose_1",  "linkgroup": "0-1"},	{"source": "HDL",        "target": "HDL_1",      "linkgroup": "0-1"}
 		]
 }
