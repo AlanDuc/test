@@ -135,22 +135,22 @@
 			{"source": "BMI_6",      "target": "Diabete_6",  "linkgroup": "t6"},		
 			
 			
-			{"source": "TG",         "target": "TG_1",       "linkgroup": "0-1"},	{"source": "wh_ratio",   "target": "wh_ratio_1", "linkgroup": "0-1"},
-			{"source": "Glucose",    "target": "Glucose_1",  "linkgroup": "0-1"},	{"source": "HDL",        "target": "HDL_1",      "linkgroup": "0-1"},
+			{"source": "TG",           "target": "TG_1",       "linkgroup": "inter"},	{"source": "wh_ratio",     "target": "wh_ratio_1", "linkgroup": "inter"},
+			{"source": "Glucose",      "target": "Glucose_1",  "linkgroup": "inter"},	{"source": "HDL",          "target": "HDL_1",      "linkgroup": "inter"},
 			
-			{"source": "TG_1",         "target": "TG_2",       "linkgroup": "1-2"},	{"source": "wh_ratio_1",   "target": "wh_ratio_2", "linkgroup": "1-2"},
-			{"source": "Glucose_1",    "target": "Glucose_2",  "linkgroup": "1-2"},	{"source": "HDL_1",        "target": "HDL_2",      "linkgroup": "1-2"},
+			{"source": "TG_1",         "target": "TG_2",       "linkgroup": "inter"},	{"source": "wh_ratio_1",   "target": "wh_ratio_2", "linkgroup": "inter"},
+			{"source": "Glucose_1",    "target": "Glucose_2",  "linkgroup": "inter"},	{"source": "HDL_1",        "target": "HDL_2",      "linkgroup": "inter"},
 			
-			{"source": "TG_2",         "target": "TG_3",       "linkgroup": "2-3"},	{"source": "wh_ratio_2",   "target": "wh_ratio_3", "linkgroup": "2-3"},
-			{"source": "Glucose_2",    "target": "Glucose_3",  "linkgroup": "2-3"},	{"source": "HDL_2",        "target": "HDL_3",      "linkgroup": "2-3"},
+			{"source": "TG_2",         "target": "TG_3",       "linkgroup": "inter"},	{"source": "wh_ratio_2",   "target": "wh_ratio_3", "linkgroup": "inter"},
+			{"source": "Glucose_2",    "target": "Glucose_3",  "linkgroup": "inter"},	{"source": "HDL_2",        "target": "HDL_3",      "linkgroup": "inter"},
 			
-			{"source": "TG_3",         "target": "TG_4",       "linkgroup": "3-4"},	{"source": "wh_ratio_3",   "target": "wh_ratio_4", "linkgroup": "3-4"},
-			{"source": "Glucose_3",    "target": "Glucose_4",  "linkgroup": "3-4"},	{"source": "HDL_3",        "target": "HDL_4",      "linkgroup": "3-4"},
+			{"source": "TG_3",         "target": "TG_4",       "linkgroup": "inter"},	{"source": "wh_ratio_3",   "target": "wh_ratio_4", "linkgroup": "inter"},
+			{"source": "Glucose_3",    "target": "Glucose_4",  "linkgroup": "inter"},	{"source": "HDL_3",        "target": "HDL_4",      "linkgroup": "inter"},
 			
-			{"source": "TG_4",         "target": "TG_5",       "linkgroup": "4-5"},	{"source": "wh_ratio_4",   "target": "wh_ratio_5", "linkgroup": "4-5"},
-			{"source": "Glucose_4",    "target": "Glucose_5",  "linkgroup": "4-5"},	{"source": "HDL_4",        "target": "HDL_5",      "linkgroup": "4-5"},
+			{"source": "TG_4",         "target": "TG_5",       "linkgroup": "inter"},	{"source": "wh_ratio_4",   "target": "wh_ratio_5", "linkgroup": "inter"},
+			{"source": "Glucose_4",    "target": "Glucose_5",  "linkgroup": "inter"},	{"source": "HDL_4",        "target": "HDL_5",      "linkgroup": "inter"},
 			
-			{"source": "TG_5",         "target": "TG_6",       "linkgroup": "5-6"},	{"source": "wh_ratio_5",   "target": "wh_ratio_6", "linkgroup": "5-6"},
-			{"source": "Glucose_5",    "target": "Glucose_6",  "linkgroup": "5-6"},	{"source": "HDL_5",        "target": "HDL_6",      "linkgroup": "5-6"}
+			{"source": "TG_5",         "target": "TG_6",       "linkgroup": "inter"},	{"source": "wh_ratio_5",   "target": "wh_ratio_6", "linkgroup": "inter"},
+			{"source": "Glucose_5",    "target": "Glucose_6",  "linkgroup": "inter"},	{"source": "HDL_5",        "target": "HDL_6",      "linkgroup": "inter"}
 		]
 }
